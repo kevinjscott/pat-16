@@ -1,0 +1,82 @@
+# .gitignore file
+
+# Ignore Python build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore all .pyc, .pyo and .pyd files.
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore cache directories for pytest and pytest-cov.
+.cache/
+.pytest_cache/
+
+# Ignore IPython notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ignore Python environment configuration
+*.venv
+*.virtualenv
+*.virtualenvs
+*.env
+*.envs
+*.envrc
+
+# Ignore all log files
+*.log
+
+# Ignore SQLite database files
+*.sqlite3
+
+# Ignore all pycache
+**/__pycache__/
+
+# Ignore coverage files
+.coverage
+.coverage.*
+.coverage.xml
+.coverage.html
+.coverage.json
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore Jupyter Notebook
+.ipynb_checkpoints
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore pytest temp files
+.tmp*
+
+# Ignore mypy type checking cache
+.mypy_cache/
+
+# Ignore pytype static type analyzer cache
+.pytype/
